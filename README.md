@@ -1,7 +1,9 @@
 #URL SHORTNER
+
 **Generate Short URL and Redirect to Your Original URL**
 
 #Clone the Repo Using HTTPS
+
 #Open your terminal in your System and run this command showing below
 
 **git clone https://github.com/mohitnauty/url-shortener.git**
@@ -9,17 +11,21 @@
 **cd url-shortener/**
 
 #After check php and composer is installed in your system using
+
 **php -v and composer -v**
 
 #If above requirement fulfill then proceed for further, if not then download php and composer and configure in your system
 
 #Further Process for setup, here are the steps
+
 **1. Copy and paste file .env.example and rename it to .env**
 
 #Create Database 
+
 **2. Add DB name, user, password in .env file for DB_DATABASE, DB_USERNAME, DB_PASSWORD**
 
 #Run commands in your project directory(url-shortener)
+
 **3. composer install** #Wait for this it takes little bit time
 
 **4. php artisan key:generate**
