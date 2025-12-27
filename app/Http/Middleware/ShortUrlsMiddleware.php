@@ -20,7 +20,9 @@ class ShortUrlsMiddleware
         if (!$user) {
             abort(403, 'Unauthorized');
         }
-
+        if ($request->route()->getName() === 'companies.admin' && !$user->hasRole('Admin')) {
+            abort(403, 'Unauthorized');
+        }
         if ($user->hasRole('SuperAdmin')) {
             abort(403, 'Unauthorized');
         }

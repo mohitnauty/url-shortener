@@ -53,7 +53,8 @@
 
 #OR you can get it from directory - /url-shortener/database/seeders/DatabaseSeeder.php
 
-###Note: Default password for new user : "123456"###
+***Note:** Default password for new user : "123456"*
+
 **When any invitation sent to any email, a new user will be created for that particular email and linked to that company.**
 
 **Tests**
