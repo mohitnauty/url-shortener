@@ -49,12 +49,12 @@
 **When any invitation sent to any email, a new user will be created for that particular email and linked to that company.**
 
 **Tests**
-##- SuperAdmin can invite an Admin in a new company
-##- An Admin can invite another Admin or Member in their own company
-##- Admin and Member can create short urls
-##- SuperAdmin cannot create short urls
-##- Admin can only see the list of all short urls created in their own company
-##- Member can only see the list of all short urls created by themselves
-##- Short urls are publicly resolvable and redirect to the original url
+#- SuperAdmin can invite an Admin in a new company
+#- An Admin can invite another Admin or Member in their own company
+#- Admin and Member can create short urls
+#- SuperAdmin cannot create short urls
+#- Admin can only see the list of all short urls created in their own company
+#- Member can only see the list of all short urls created by themselves
+#- Short urls are publicly resolvable and redirect to the original url
 
 
